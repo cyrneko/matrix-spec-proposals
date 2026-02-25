@@ -19,10 +19,10 @@ We add a new field to represent banners:
 ```json
 {
   "avatar_url": "mxc://matrix.org/SDGdghriugerRg",
-  "banner_url": "mxc://matrix.org/example123",
   "displayname": "Alice Margatroid",
   "m.example_field": "custom_value",
-  "m.tz": "Europe/London"
+  "m.tz": "Europe/London",
+  "m.banner_url": "mxc://matrix.org/example123"
 }
 ```
 
@@ -41,14 +41,9 @@ The same security precautions apply here as they do for avatars. Uploaded
 banners should always be some kind of image data (i.e image/* mime-type)
 and never other arbitrary files.
 
-## Alternatives
-
-This field could also be implemented as `m.banner_url`, as per MSC4133.
-
 ## Unstable prefix
 
-This MSC is a non-breaking change, and as such `banner_url` can be used as-is
-even before this MSC is merged.
+`eu.cyrneko.msc4427.banner_url`
 
 ## Dependencies
 
