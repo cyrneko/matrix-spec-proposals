@@ -1,4 +1,4 @@
-# MSC0000: Custom banners for user profiles
+# MSC4427: Custom banners for user profiles
 
 On many platforms, users have additional customization options for 
 their profile, including but not limited to banners.
