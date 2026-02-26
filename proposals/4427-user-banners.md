@@ -43,7 +43,7 @@ and never other arbitrary files.
 
 ## Unstable prefix
 
-`eu.cyrneko.msc4427.banner_url`
+`chat.commet.profile_banner`
 
 ## Dependencies
 
